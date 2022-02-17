@@ -1,0 +1,107 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei", arial;
+	background: #fff;
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+img {
+	border: 0;
+}
+
+.mui-content {
+	background: #fff;
+}
+
+.top {
+	margin: 15px auto;
+	width: 65%;
+}
+
+.logo {
+	width: 15%;
+	display: inline-block;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.logo-font {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+	width: 80%;
+	margin-left: 10px;
+}
+
+.main {
+	margin: 15px;
+}
+
+.main-title {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.main table {
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+
+.main th,
+.main td {
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	padding: 10px 5px;
+	font-size: 14px;
+}
+
+.main th {
+	font-weight: normal;
+	color: #777;
+}
+
+.main td {
+	font-size: 15px;
+}
+
+@media (device-height:667px) and (-webkit-min-device-pixel-ratio:2) {
+	/* å…¼å®¹iphone6 */
+	.top {
+		width: 66%;
+	}
+}
+
+@media (device-height:640px) and (-webkit-min-device-pixel-ratio:2) {
+	/* å…¼å®¹Note3 */
+	.top {
+		width: 69%;
+	}
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2) {
+	/* å…¼å®¹iphone5 */
+	.top {
+		width: 78%;
+	}
+	.main th {
+		font-size: 12px;
+		padding: 6px 4px;
+	}
+	.main td {
+		font-size: 14px;
+		padding: 6px 4px;
+	}
+}
